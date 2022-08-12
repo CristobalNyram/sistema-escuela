@@ -101,6 +101,8 @@ if (!empty($_POST['txtuser']) and !empty($_POST['txtpass'])) {
     }
 } else {
     echo '
+
+    
 			<label class="label">Inicia sesión</label>
 			<input type="text" class="text" name="txtuser" placeholder="Correo electrónico o matrícula" autofocus required />
 			<input type="password" class="textcontrasena" name="txtpass" placeholder="Contraseña" autocomplete="off" required />
