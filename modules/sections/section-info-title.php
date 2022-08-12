@@ -33,7 +33,7 @@ if (strpos($url_actual, 'modules')) {
     elseif ($name_page[1] == 'payments') {
         $_SESSION['title_form_section'] = 'Pagos';
     }
-    elseif ($name_page[1] == 'logbook') {
+    elseif ($name_page[1] == 'logbooks') {
         $_SESSION['title_form_section'] = 'Bitácora';
     }
     elseif ($name_page[1] == 'dates') {
