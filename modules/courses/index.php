@@ -74,7 +74,7 @@ foreach ($students_groups as $selected) {
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 	<meta name="robots" content="noindex">
 	<meta name="google" value="notranslate">
-	<link rel="icon" type="image/png" href="/images/icon.png" />
+	<link rel="icon" type="image/png" href="<?php $_SESSION['raiz']?>/assets/images/DevTecam.png" />
 	<title>Cursos | Sistema Escolar</title>
 	<meta name="description" content="Sistema Escolar." />
 	<link rel="stylesheet" href="/css/style.css" media="screen, projection" type="text/css" />

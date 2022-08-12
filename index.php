@@ -50,6 +50,19 @@ if (!empty($_SESSION['authenticate']) == 'go-' . !empty($_SESSION['usuario'])) {
 			?>
 		</form>
 	</div>
+
+		
+		<footer >
+					<div class="container-content-footer">
+						
+						<p class="content-footer__item">Powered by DVTECAM</p>
+						
+						<img class="content-footer__item" src="./assets/images/DevTecam.png" alt="logo DvTecam" width="20px">
+
+					</div>
+		</footer>
+
+
 </body>
 <script src="/js/controls/buttons.js" type="text/javascript"></script>
 
