@@ -17,10 +17,17 @@
     /* For IE6-8 */
     src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/MaterialIcons-Regular.woff2) format('woff2'), url(fonts/MaterialIcons-Regular.woff) format('woff'), url(fonts/MaterialIcons-Regular.ttf) format('truetype');
 }
+/* Gereneral viarables start */
 :root{
  --main-color:#619D8E;
- --blackColor:#599D8C;
+ --blackColor:#315867;
+ --colorDanger:#db4949  ;
+ 
+
 }
+/* general variables end */
+
+
 .icon {
     font-family: "icons" !important;
     text-transform: none;
@@ -32,6 +39,15 @@
   Structure
 -------------------------------------------*/
 
+
+
+/* general style like bootstrap start*/
+.bg-danger
+{
+    background-color:var(--colorDanger);
+}
+
+/* general style like bootstrap end */
 * {
     margin: 0;
     padding: 0;
@@ -2502,6 +2518,9 @@ footer
 {
     z-index: -1;
     background-color: var(--blackColor);
+    box-shadow: -1px -4px 18px 1px rgba(97,157,142,0.71);
+    -webkit-box-shadow: -1px -4px 18px 1px rgba(97,157,142,0.71);
+    -moz-box-shadow: -1px -4px 18px 1px rgba(97,157,142,0.71);
     
     height: 50px;
     width: 100%;

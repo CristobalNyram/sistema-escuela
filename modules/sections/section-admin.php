@@ -38,6 +38,7 @@ if (strpos($url_actual, 'modules')) {
 }
 ?>
 <div class="nav-home">
+    
     <span class="name_system">Sistema Escolar</span>
     <div class="user">
         <img class="image_user" src="/images/users/<?php echo $_SESSION['image']; ?>" />
@@ -53,7 +54,7 @@ if (strpos($url_actual, 'modules')) {
                                 } ?>" href="/user"><span class="icon">settings</span>Configuración</a>
                 </li>
                 <li>
-                    <a href="/modules/logout"><span class="icon">logout</span>Cerrar sesión</a>
+                    <a href="/modules/logout" class="bg-danger"><span class="icon ">logout</span>Cerrar sesión</a>
                 </li>
             </ul>
         </span>
@@ -94,6 +95,14 @@ if (strpos($url_actual, 'modules')) {
         <li><a class="<?php if ($output[1] == 'payments') {
                             echo 'active';
                         } ?>" href="/modules/payments"><span class="icon">payments</span>Pagos</a>
+        </li>
+        <li><a class="<?php if ($output[1] == 'logbook') {
+                            echo 'active';
+                        } ?>" href="/modules/logbooks"><span class="icon">library_books</span>Bitácora</a>
+        </li>
+        <li><a class="<?php if ($output[1] == 'dates') {
+                            echo 'active';
+                        } ?>" href="/modules/dates"><span class="icon">meeting_room</span>Citas</a>
         </li>
         
     </ul>
