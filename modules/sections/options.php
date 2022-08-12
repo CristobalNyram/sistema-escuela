@@ -6,6 +6,7 @@ include_once 'security.php';
         <form action="" method="POST">
             <button id="btnAddOptions" class="btn btn-add icon" name="btn" value="form_add" type="submit">add</button>
         </form>
+        
         <form action="" method="POST">
             <button class="btn btn-disabled icon" name="btn" value="form_coding" type="submit" disabled>code</button>
         </form>

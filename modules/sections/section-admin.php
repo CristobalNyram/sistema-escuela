@@ -87,6 +87,15 @@ if (strpos($url_actual, 'modules')) {
                             echo 'active';
                         } ?>" href="/modules/groups"><span class="icon">groups</span>Grupos</a>
         </li>
+        <li><a class="<?php if ($output[1] == 'news') {
+                            echo 'active';
+                        } ?>" href="/modules/news"><span class="icon">comment</span>Noticias</a>
+        </li>
+        <li><a class="<?php if ($output[1] == 'payments') {
+                            echo 'active';
+                        } ?>" href="/modules/payments"><span class="icon">payments</span>Pagos</a>
+        </li>
+        
     </ul>
 </div>
 <div class="menu-mobile">

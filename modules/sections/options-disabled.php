@@ -9,6 +9,7 @@ include_once 'security.php';
 		<form action="" method="POST">
 			<button class="btn btn-disabled icon" name="btn" value="form_coding" type="submit" disabled>code</button>
 		</form>
+		
 		<form action="" method="POST">
 			<button class="btn btn-disabled icon" name="btn" value="form_printer" type="submit" disabled>print</button>
 		</form>
