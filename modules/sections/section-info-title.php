@@ -27,6 +27,13 @@ if (strpos($url_actual, 'modules')) {
     } elseif ($name_page[1] == 'anuncios') {
         $_SESSION['title_form_section'] = 'Cursos';
     }
+    elseif ($name_page[1] == 'news') {
+        $_SESSION['title_form_section'] = 'Noticias';
+    }
+    elseif ($name_page[1] == 'payments') {
+        $_SESSION['title_form_section'] = 'Pagos';
+    }
+
 } elseif (strpos($url_actual, 'user')) {
     $name_page[1] = 'user';
 
