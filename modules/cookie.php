@@ -6,6 +6,7 @@ if (!empty($_COOKIE['remember']) & !empty($_COOKIE['authenticate'])) {
 }
 
 if ($remember == 'si') {
+	
 	$_SESSION['user'] = $_COOKIE['user'];
 	$_SESSION['name'] = $_COOKIE['name'];
 	$_SESSION['surnames'] = $_COOKIE['surnames'];
