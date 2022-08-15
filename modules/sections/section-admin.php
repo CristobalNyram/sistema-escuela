@@ -96,7 +96,7 @@ if (strpos($url_actual, 'modules')) {
                             echo 'active';
                         } ?>" href="/modules/payments"><span class="icon">payments</span>Pagos</a>
         </li>
-        <li><a class="<?php if ($output[1] == 'logbook') {
+        <li><a class="<?php if ($output[1] == 'logbooks') {
                             echo 'active';
                         } ?>" href="/modules/logbooks"><span class="icon">library_books</span>Bitácora</a>
         </li>
